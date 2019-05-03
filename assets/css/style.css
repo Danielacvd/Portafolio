@@ -1,0 +1,20 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.bg-purple{
+  background-color: #660066;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+}
+h5{
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 10rem;
+}
