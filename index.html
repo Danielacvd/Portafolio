@@ -143,14 +143,53 @@
 
 <footer class="bg-purple">
   <div class="row mt-5">
-    <div class="col-md-5 text-right">
+    <div class="col-md-4 text-right">
       <h2 class="display-4 my-5 text-white font-weight-bold">MAGDALENA</h2>
     </div>
-    <div class="col-md-7 text-left my-5 text-white">
-      <i class="fab fa-github fa-5x"></i>
+    <!-- <div class="col-md-8 text-left my-5 text-white"> -->
+      <!-- <i class="fab fa-github fa-5x"></i>
       <i class="fab fa-linkedin fa-5x"></i>
       <i class="fab fa-twitter-square fa-5x"></i>
-      <i class="fab fa-facebook-square fa-5x"></i>
+      <i class="fab fa-facebook-square fa-5x"></i> -->
+      <div class="col-8  text-white rounded pt-4 pb-5">
+        <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#blogCarousel" data-slide-to="1"></li>
+          </ol>
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active text-center">
+              <div class="row">
+                <div class="col-6">
+                  <i class="fab fa-github fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Github"></i>
+                </div>
+                <div class="col-6">
+                  <i class="fab fa-linkedin fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="linkedin"></i>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="carousel-item text-center">
+              <div class="row">
+                <div class="col-6">
+                  <i class="fab fa-twitter-square fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="twitter"></i>
+                </div>
+                <div class="col-6">
+                  <i class="fab fa-facebook-square fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="facebook"></i>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
